@@ -1,5 +1,5 @@
 body {
-    font-family: serif , 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 /*-----------------
@@ -27,8 +27,9 @@ body {
     height: 424px;
 }
 .main-container h1 {
-    font-size: 90px;
+    font-size: 60px;
     margin-bottom: 20px;
+    font-weight: 900;
 }
 .main-container p {
     margin-bottom: 30px;
@@ -53,21 +54,55 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    
+    
+    
 }
 .side-blog {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: black;
     width: 300px;
-    border-radius: 5px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 21px;
+  
 }
+
 .blog-containt a {
     display: flex;
     justify-content: center;
     text-decoration: none;
     background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
     width: 200px;
     padding: 15px;
     margin-top: 25px;
     border-radius: 7px;
+}
+#selected-blog {
+    background-color: #dd0000;
+    color: #ffffff;
+}
+.main-article {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.blog-info {
+    border: 1px solid rgb(243, 235, 235);
+    border-radius: 10px;
+}
+.blog-info img {
+    margin-bottom: 30px;
+}
+.transfer {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 17px;
+    font-size: 17px;
 }
